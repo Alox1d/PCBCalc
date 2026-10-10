@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_prophet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider_in_height"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context="com.alox1d.pcbcalc.InputDataActivity">
+
+
+    <include layout="@layout/misc_toolbar" />
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="48dp"
+        android:requiresFadingEdge="vertical">
+        <!--0 dp и weight=1 - чтобы именно weight контролировал размер-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_in_height"
+            android:dividerPadding="@dimen/material_standard"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/main_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                card_view:cardCornerRadius="0dp"
+                card_view:cardElevation="2dp"
+                card_view:elevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:divider="@drawable/divider_in_height"
+                    android:orientation="vertical"
+                    android:showDividers="middle">
+
+                    <LinearLayout
+                        android:id="@+id/layout_inner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:divider="@drawable/divider_in_height"
+                        android:orientation="vertical"
+                        android:showDividers="middle"> <!---->
+                        <!--android:padding="16dp"-->
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/inner_rv_input_data_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scrollbars="vertical" />
+                    </RelativeLayout>
+<!--без relativelayout для recycler'а его высота меняется при добавлении новых айтемов (только появляется скролл)-->
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footer_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:divider="@drawable/divider_in_height"
+        android:orientation="vertical"
+        android:padding="@dimen/material_standard"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/footer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/substract_material_standard"
+            android:layout_marginEnd="@dimen/substract_material_standard"
+            android:layout_marginStart="@dimen/substract_material_standard"
+            android:layout_marginTop="@dimen/substract_material_standard"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/calculate"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

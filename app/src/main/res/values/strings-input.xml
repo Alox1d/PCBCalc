@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general-->
+    <string name="please_type_correct_data">Пожалуйста, введите верные данные</string>
+
+    <!--mechnical_impacts-->
+    <string name="PCB_length">Длина печатной платы</string>
+    <string name="PCB_width">Ширина печатной платы</string>
+    <string name="PCB_thickness">Толщина печатной платы</string>
+    <string name="PCB_overload">Коэффициент перегрузки</string>
+    <string name="PCB_exciting_frequency">Возбуждающая частота</string>
+    <string name="PCB_mass_all_elements">Масса всех элементов</string>
+
+    <string name="fixing_method">Способ закрепления</string>
+    <string name="vibration_fixing_method_1">1</string>
+    <string name="vibration_fixing_method_2">2</string>
+    <string name="vibration_fixing_method_3">3</string>
+    <string name="vibration_fixing_method_4">4</string>
+    <string name="vibration_fixing_method_5">5</string>
+    <string name="vibration_fixing_method_6">6</string>
+    <string name="vibration_fixing_method_7">7</string>
+
+    <string name="material_PCB">Материал печатной платы</string>
+    <string name="material_fiberglass_stef_1">Фольгированный стеклотекстолит СТЭФ-1</string>
+    <string name="material_fiberglass_ste">Стеклотекстолит СТЭ</string>
+    <string name="material_stef">СТЭФ</string>
+    <string name="material_ndf">НДФ</string>
+    <string name="material_sf_2">СФ-2</string>
+    <string name="material_getinax_gf_1">Гетинакс фольгированный ГФ-1</string>
+
+    <!--failure rate-->
+    <string name="required_time_of_work">Заданное время работы</string>
+    <string name="working_conditions">Условия эксплуатации аппаратуры</string>
+    <string name="humidity_and_temperature">Влажность (%) | Температура окружающей среды (&#176;С)</string>
+    <string name="atmosphere_pressure">Атмосферное давление (кПа)</string>
+
+    <string name="add_components">Добавить компоненты</string>
+    <string name="number_of_components">Количество</string>
+    <string name="correction_coeff_in_work">Поправочный коэффициент</string>
+    <string name="component_type">Тип компонента</string>
+    <string name="work_mode_name">Режим работы</string>
+    <string name="impulse_mode">Импульсный</string>
+    <string name="static_mode">Статический</string>
+    <string name="surface_temperature_of_the_components">Температура поверхности корпуса компонента (&#176;С)</string>
+    <string name="not_required">Не требуется</string>
+
+
+    <string-array name="components_failure_rate">
+        <item>Микросхемы со средней степенью интеграции|0.013</item>
+        <!--TODO: модели для каждой таблицы? массивы связать мапами-->
+    </string-array>
+
+</resources>

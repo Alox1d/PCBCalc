@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PCB Calc</string>
+
+    <!--main-->
+    <string name="design_calculations_name">Конструкторские расчеты</string>
+    <string name="disable_splash_screen">Отключить загрузочный экран</string>
+    <string name="mechanical_impacts_name">Расчет на механические воздействия</string>
+    <string name="dependability_name">Расчет на надежность</string>
+    <string name="mechanical_impacts_method_name">Выбранный расчет механических воздействий</string>
+    <string name="vibration_durable_name">Расчет на вибропрочность</string>
+    <string name="vibration_stable_name">Расчет на виброустойчивость</string>
+    <string name="impact_resistance_name">Расчет на ударопрочность</string>
+    <string name="failure_rate_name">Расчет интенсивности отказов</string>
+    <string name="about_app_name">О приложении</string>
+
+    <!--about-->
+    <string name="about_text">
+        Приложение разработано с целью автоматизации расчетов цирофвых устройств на виброустойчивость, вибропрочность и надежность
+        в качестве дипломного проекта по специальности 09.02.01 &#171;Компьютерные системы и комплексы&#187;.
+    \n\nАвтор: Баранов Александр Юрьевич
+        \nДипломный руководитель: Сухова Ольга Геннадьевна
+        \nОГБПОУ &#171;Ивановский энергетический колледж&#187; &#9400; 2018
+    \n\nКонтакты:
+    </string>
+    <string name="about_email">baranov.alex-der@mail.ru</string>
+    <string name="about_version">Версия: 1.0</string>
+
+    <!--misc-->
+    <string name="open_file">Открыть файл</string>
+    <string name="file_name">Имя файла:</string>
+    <string name="saved_to_folder">Сохранено в папку</string>
+    <string name="saving_in_progress">Идет сохранение файла...</string>
+    <string name="error">Ошибка:</string>
+    <string name="calculate">РАССЧИТАТЬ</string>
+    <string name="backward">Назад</string>
+    <string name="save_to_microsoft_word">Сохранить в Microsoft Word</string>
+    <string name="close">Закрыть</string>
+    <string name="requireWritePermission">Требуются права для сохранения документа (см. настройки приложения)</string>
+    <string name="search">Найти...</string>
+</resources>

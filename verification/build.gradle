@@ -1,0 +1,17 @@
+plugins { id 'java' }
+repositories { mavenCentral() }
+sourceSets.main.java {
+    srcDir '../app/src/main/java'
+    include 'com/alox1d/pcbcalc/models/VibrationStrength.java'
+    include 'com/alox1d/pcbcalc/utils/ApachePOIHelper.java'
+    include 'android/os/Environment.java'
+}
+java { sourceCompatibility = JavaVersion.VERSION_1_8; targetCompatibility = JavaVersion.VERSION_1_8 }
+dependencies {
+    implementation files('../app/libs/poishadow-all.jar')
+    testImplementation 'junit:junit:4.13.2' }
+
+test {
+    systemProperty 'pcbcalc.templates', file('../app/src/main/assets').absolutePath
+    systemProperty 'pcbcalc.test.downloads', layout.buildDirectory.dir('reports/exported-docx').get().asFile.absolutePath
+}

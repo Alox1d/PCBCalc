@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string-array name="vibration_input_et_names">-->
+        <!--<item>Количество интегральных микросхем:</item>-->
+        <!--<item>Длина печатной платы:</item>-->
+        <!--<item>Ширина печатной платы:</item>-->
+        <!--<item>Толщина печатной платы:</item>-->
+        <!--<item>Коэффициент перегрузки:</item>-->
+        <!--<item>Возбуждающая частота:</item>-->
+    <!--</string-array>-->
+
+    <!--<integer-array name="vibration_input_et_values">-->
+        <!--<item>0</item>-->
+        <!--<item>0</item>-->
+        <!--<item>0</item>-->
+        <!--<item>0</item>-->
+        <!--<item>8</item>-->
+        <!--<item>50</item>-->
+    <!--</integer-array>-->
+
+    <!--<string-array name="vibration_input_et_units_of_measurement">-->
+        <!--<item></item>-->
+        <!--<item>кг</item>-->
+        <!--<item>м</item>-->
+        <!--<item>м</item>-->
+        <!--<item>м</item>-->
+        <!--<item></item>-->
+        <!--<item>Гц</item>-->
+    <!--</string-array>-->
+
+
+</resources>

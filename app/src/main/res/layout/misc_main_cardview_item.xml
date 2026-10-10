@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_in_height"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="2dp"
+        card_view:elevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/calc_image"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+
+                android:layout_marginLeft="@dimen/material_standard"
+                android:layout_marginStart="@dimen/material_standard" />
+            <!--android:layout_marginRight="@dimen/material_standard"-->
+            <!--android:layout_marginEnd="@dimen/material_standard"-->
+            <TextView
+                android:id="@+id/calc_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/material_standard"
+
+                android:layout_toEndOf="@+id/calc_image"
+                android:layout_toRightOf="@+id/calc_image"
+                android:textSize="@dimen/input_font" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

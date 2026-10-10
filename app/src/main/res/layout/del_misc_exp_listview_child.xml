@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:gravity="center_vertical"
+    android:layout_margin="@dimen/material_standard">
+    <TextView
+        android:id="@+id/tvExpListViewChild"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textSize="@dimen/input_font"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <EditText
+            android:id="@+id/etExpListViewChild"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal|number"
+            />
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>

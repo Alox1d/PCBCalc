@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--WORD VALUES-->
+    <!--stable and durable-->
+    <string name="mech_imp_var_length">Длина</string>
+    <string name="mech_imp_var_width">Ширина</string>
+    <string name="mech_imp_var_thickness">Толщина</string>
+    <string name="mech_imp_var_massofAllElements">масса_всех_элементов</string>
+    <string name="mech_imp_var_excitingFrequency">Возбуждающая_частота</string>
+    <string name="mech_imp_var_fixing_method">Способ_закрепления</string>
+
+    <string name="mech_imp_var_density">Плотность</string>
+    <string name="mech_imp_var_moduleElasticityOfMaterial">Модуль_Юнга</string>
+    <string name="mech_imp_var_coeffPoisson">Коэффициент_Пуассона</string>
+    <string name="mech_imp_var_massPCB">Масса_печатной_платы</string>
+    <string name="mech_imp_var_coeffMassElements">коэф_учитывающий_массу_элементов</string>
+    <string name="mech_imp_var_auxiliaryCoeffFixingMethodFirst">вспом_коэф_учит_способ_закреп_1</string>
+    <string name="mech_imp_var_auxiliaryCoeffFixingMethodSecond">вспом_коэф_учит_способ_закреп_2</string>
+    <string name="mech_imp_var_auxiliaryCoeffFixingMethodThird">вспом_коэф_учит_способ_закреп_3</string>
+    <string name="mech_imp_var_coeffFixingMethod">коэф_учит_способ_закрепления</string>
+    <string name="mech_imp_var_rigidity">цилиндрическая_жёсткость_платы</string>
+    <string name="mech_imp_var_fundamentalFrequency">собственная_частота_колебаний</string>
+    <string name="mech_imp_var_fundamentalDividedByExcitingFreq">собств_поделенная_на_возб</string>
+    <string name="mech_imp_var_result">Результат</string>
+    <string name="mech_imp_var_material">Материал_платы</string>
+
+
+
+    <!--durable-->
+    <string name="mech_imp_var_amplitudeOfOscillation">амплитуда_колебаний</string>
+    <string name="mech_imp_var_coeffOfDynamic">коэффициент_динамичности</string>
+    <string name="mech_imp_var_dynamicDeflection">динамический_прогиб</string>
+    <string name="mech_imp_var_auxiliaryFixingCoeff">вспомогательный_коэффициент_1</string>
+    <string name="mech_imp_var_dynamicLoad">динамическая_нагрузка</string>
+    <string name="mech_imp_var_auxiliaryCoeff">вспомогательный_коэффициент_2</string>
+    <string name="mech_imp_var_maxBendingMoment">максимальный_изгибающий_момент</string>
+    <string name="mech_imp_var_maxDynamicTensionOfBending">макс_напряжение_изгиба</string>
+    <string name="mech_imp_var_allowableTensionOfBending">допустимое_напряжение_изгиба</string>
+    <string name="mech_imp_var_result_condition">Результирующее_условие</string>
+
+    <!--dependab-->
+    <string name="dependab_fail_rate_requiredTimeOfWork">Заданное_время_работы</string>
+    <string name="dependab_fail_rate_workingConditions">Условия_эксплуатации_аппаратуры</string>
+    <string name="dependab_fail_rate_humidityAndTemperature">Влажность_и_Температура_окружающей_среды</string>
+    <string name="dependab_fail_rate_atmospherePressure">Атмосферное_давление</string>
+
+    <string name="dependab_fail_rate_systemFailureRate">Интен_отказ_сис_учет_разб_кол_эл_на_гр</string>
+    <string name="dependab_fail_rate_averageOperatingTime">Средн_время_наработки_до_перв_отказа</string>
+    <string name="dependab_fail_rate_probabilityOfTroubleFreeWorkInPercents">Вероятность_безотказной_работы</string>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mechanical_impacts_vstable_word_file_name">mechanical_impacts_vstable.docx</string>
+    <string name="mechanical_impacts_vdurable_word_file_name">mechanical_impacts_vdurable.docx</string>
+    <string name="dependability_failure_rate_word_file_name">dependability_failure_rate.docx</string>
+    <string name="save_folder_name">Documents</string>
+</resources>

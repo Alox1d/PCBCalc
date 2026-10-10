@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--general-->
+    <string name="error_result">Вероятна ошибка во введенных данных</string>
+    <string name="stable">устойчиво</string>
+    <string name="unstable">неустойчиво</string>
+    <string name="observed">соблюдается</string>
+    <string name="unobserved">не соблюдается</string>
+    <string name="more"><![CDATA[>]]></string>
+    <string name="less_or_equals"><![CDATA[<=]]></string>
+
+    <!--mechanical_impacts-->
+    <string name="successful_vibration_stable">Устройство устойчиво к вибрациям по правилу октавы</string>
+    <string name="unsuccessful_vibration_stable">Устройство неустойчиво к вибрациям по правилу октавы</string>
+    <string name="successful_vibration_durable">Условие вибропрочности выполняется</string>
+    <string name="unsuccessful_vibration_durable">Условие вибропрочности не выполняется</string>
+
+    <!--vibration_durable-->
+    <string-array name="vibration_result_et_names">
+        <item>Масса печатной платы</item>
+        <item>Коэффициент, учитывающий массу элементов</item>
+        <item>Коэффициент, учитывающий способ закрепления</item>
+        <item>Цилиндрическая жёсткость платы</item>
+        <item>Собственная частота колебаний</item>
+        <item>Амплитуда колебаний (прогиб) ПП на собственной частоте при заданном коэффициенте перегрузки</item>
+        <item>Коэффициент динамичности, показывающий, во сколько раз амплитуда вынужденных колебаний на частоте f отличается от амплитуды на частоте fc</item>
+        <item>Динамический прогиб в геометрическом центре ПП при ее возбуждении с частотой fc</item>
+        <item>Равномерно распределённая динамическая нагрузка эквивалентная прогибу</item>
+        <item>Максимальный распределенный изгибающий момент, вызванный динамической нагрузкой</item>
+        <item>Максимальное динамическое напряжение изгиба ПП</item>
+        <item>Допустимое напряжение изгиба</item>
+    </string-array>
+    <string-array name="vibration_result_et_units_of_measurement">
+        <item>кг</item>
+        <item></item>
+        <item></item>
+        <item>Н/м</item>
+        <item>Гц</item>
+        <item>мм</item>
+        <item></item>
+        <item>мм</item>
+        <item>Н/м&#178;</item>
+        <item>Н</item>
+        <item>Па</item>
+        <item>МПа</item>
+    </string-array>
+
+    <!--failure rate-->
+    <string name="successful_failure_rate">Низкая вероятность отказа устройства при работе</string>
+    <string name="unsuccessful_failure_rate">Высокая вероятность отказа устройства при работе</string>
+    <string name="chart_probability_of_failure_free_work">Зависимость вероятность безотказной работы (%) от времени (в часах)</string>
+    <string name="failure_rate_is">Вероятность отказа равна</string>
+
+    <string-array name="failure_rate_result_et_names">
+        <item>Интенсивность отказов системы с учетом разбиения всего количества элементов на группы</item>
+        <item>Среднее время наработки до первого отказа</item>
+        <item>Вероятность безотказной работы</item>
+    </string-array>
+
+    <string-array name="failure_rate_result_et_units_of_measurement">
+        <item>10 в -6 степени 1/ч</item>
+        <item>ч</item>
+        <item>%</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inputRowValuesAndNamesId">inputRowValuesAndNamesId</string>
+    <string name="inputSpinnerValuesAndNamesId">inputSpinnerValuesAndNamesId</string>
+    <string name="inputExpandedRows">inputExpandedRow</string>
+    <string name="dialogItemChooserItems">dialogItemChooserItems</string>
+    <string name="inputExpandedSpinnerRows">inputExpandedSpinnerRows</string>
+</resources>

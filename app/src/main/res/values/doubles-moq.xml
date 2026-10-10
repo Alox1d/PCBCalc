@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--mechnical_impacts-->
+
+    <string name="moq_PCB_length">0.16</string>
+    <string name="moq_PCB_width">0.08</string>
+    <string name="moq_PCB_thickness">0.0015</string>
+    <string name="moq_PCB_mass_all_elements">0.038</string>
+    <string name="moq_PCB_exciting_frequency">50</string>
+
+    <!--failure rate-->
+    <string name="moq_required_time_of_work">8760</string>
+    <string name="moq_ambient_temperature">20</string>
+    <string name="moq_surface_temperature_of_the_components">60</string>
+    <string name="moq_humidity">60</string>
+    <string name="moq_number_of_components">1</string>
+
+</resources>

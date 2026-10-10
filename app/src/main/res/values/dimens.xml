@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_font">18sp</dimen>
+    <dimen name="material_standard">16dp</dimen>
+    <dimen name="substract_material_standard">-17dp</dimen>
+    <dimen name="splash_image_size">200dp</dimen>
+    <dimen name="splash_text_size">23sp</dimen>
+    // idk why but -16dp doesn't equals -16dp, it's about -15dp
+
+
+
+
+
+</resources>

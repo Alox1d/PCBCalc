@@ -1,0 +1,139 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.alox1d.pcbcalc"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+                compileOptions {
+            targetCompatibility 1.8
+            sourceCompatibility 1.8
+        }
+//s
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled true
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    dexOptions {
+//        //incremental = true;
+//        preDexLibraries = false
+//        javaMaxHeapSize "4g"
+//    }
+    dexOptions {
+        // Comment the following in order to see actual errors, not unhelpful "too many errors"!
+//        preDexLibraries = false
+        additionalParameters = ['--core-library']
+    }
+//    sourceSets {
+//        main {
+//            res.srcDirs = ['src/main/res', 'src/main/res/raw']
+//        }
+//    }
+//    packagingOptions {
+//        exclude 'META-INF/DEPENDENCIES.txt'
+//        exclude 'META-INF/LICENSE.txt'
+//        exclude 'META-INF/NOTICE.txt'
+//        exclude 'META-INF/NOTICE'
+//        exclude 'META-INF/LICENSE'
+//        exclude 'META-INF/DEPENDENCIES'
+//        exclude 'META-INF/notice.txt'
+//        exclude 'META-INF/license.txt'
+//        exclude 'META-INF/dependencies.txt'
+//        exclude 'META-INF/LGPL2.1'
+//        exclude 'readme.html'
+//        exclude 'license.html'
+//        exclude 'META-INF/eclipse.inf'
+//    }
+
+
+}
+
+dependencies {
+
+    //    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+
+    //        exclude group: 'com.android.support', module: 'support-annotations'
+
+    //    })
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation files('libs/poishadow-all.jar')
+    implementation "android.arch.persistence.room:runtime:1.1.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.0"
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    //    compile group: 'org.docx4j', name: 'docx4j', version: '3.3.5'
+
+    //    compile 'javax.xml.bind:jaxb-api:2.2.12'
+
+    //    compile 'javax.xml.stream:stax-api:1.0-2'
+
+    //    compile 'com.fasterxml:aalto-xml:1.0.0'
+
+    //    compile files('libs/awt-bastardised-17v8.jar')
+
+    //    compile files('libs/slf4j-android-1.6.1-RC1.jar')
+
+    //    compile files('libs/activation.jar')
+
+    //    compile files('libs/additionnal.jar')
+
+    //    compile files('libs/jaxb-core-2.3.0-SNAPSHOT-ANDROID.jar')
+
+    //    compile files('libs/jaxb-runtime-2.3.0-SNAPSHOT-ANDROID.jar')
+
+    //    compile files('libs/istack-commons-runtime-3.0.4-SNAPSHOT.jar')
+
+    //    compile files('libs/docx4j-3.3.5-SNAPSHOT2-shaded.jar')
+
+    //    implementation files('libs/poi-3.17.jar')
+
+    //
+
+    //    implementation files('libs/poi-ooxml-3.17.jar')
+
+    //
+
+    //    implementation files('libs/poi-ooxml-schemas-3.17.jar')
+
+    //    implementation files('libs/xmlbeans-2.6.0.jar')
+
+    //
+
+    //        compile files('libs/poi-ooxml-schemas-3.12-20150511-a.jar')
+
+    //
+
+    //        compile files('libs/poi-3.12-android-a.jar')
+
+    //    compile fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation files('libs/poi-3.17.jar')
+//    implementation files('libs/poi-ooxml-3.17.jar')
+//    implementation files('libs/xmlbeans-2.6.0.jar')
+//    implementation files('libs/ooxml-schemas-1.3.jar')
+}
