@@ -1,8 +1,8 @@
-<p align="center"><img src="assets/poster.png" alt="PCBCalc — circuits meet mechanics" width="100%"></p>
+<p align="center"><img src="assets/poster.png" alt="PCBCalc - circuits meet mechanics" width="100%"></p>
 
 # PCBCalc
 
-My graduation project at **Ивановский энергетический колледж**, where I studied computer systems technology. An Android application for educational PCB vibration and reliability calculations, built in Java in 2018.
+My graduation project at **Ivanovo Energy College**, where I studied computer systems technology. An Android application for educational PCB vibration and reliability calculations, built in Java in 2018.
 
 ## What it does
 
@@ -18,8 +18,12 @@ The public release fixes a unit-conversion bug in the bending-strength check: st
 Requires Python 3 for the dependency download and JDK 17–21 for the standalone verification project:
 
 ```sh
-python3 tools/fetch_poi.py
-./verification/gradlew -p verification test
+python3 \
+  tools/fetch_poi.py
+
+./verification/gradlew \
+  -p verification \
+  test
 ```
 
 The verification build compiles the production calculation helper and report exporter. Its Android storage adapter is confined to the JVM test harness. It does not build or exercise the full Android UI.
