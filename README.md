@@ -21,9 +21,10 @@ Requires Python 3 for the dependency download and JDK 17–21 for the standalone
 python3 \
   tools/fetch_poi.py
 
-./verification/gradlew \
-  -p verification \
-  test
+(
+  cd verification
+  ./gradlew test
+)
 ```
 
 The verification build compiles the production calculation helper and report exporter. Its Android storage adapter is confined to the JVM test harness. It does not build or exercise the full Android UI.
